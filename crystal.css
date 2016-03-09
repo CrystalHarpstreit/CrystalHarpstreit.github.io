@@ -1,0 +1,199 @@
+body{
+  margin:0 auto;
+}
+
+#menu {
+  margin-right: 75px;
+}
+
+#menu .info {
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#header {
+  width: 100%;
+  height: 400px;
+  background-color: #f7484e;
+}
+
+#logo {
+  width: 80%;
+  margin: 100px;
+}
+
+#divider {
+  height: 70px;
+}
+
+.part {
+  position: relative;
+  bottom: 85px;
+}
+
+.octo, .octo div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.octo, .octo div {
+  width: 200px;
+  height: 200px;
+}
+.octo {
+  transform: rotate(45deg);
+}
+.octo1 {
+  transform: rotate(-45deg);
+}
+
+#about {
+  width: 60%;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+.category{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000;
+  max-width: 60px;
+  text-transform: uppercase;
+  border-bottom: 2px #000 solid;
+  margin: 60px 0 30px 0;
+}
+
+.info:hover {
+  color: #f7484e;
+}
+
+img.tiles {
+  width: 250px;
+  height: 250px;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  position: relative;
+  width: 250px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  font-size: 30px;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+/* bianchi*/
+
+p.bianchi {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*kasa page*/
+.case-studies img {
+  width: 50%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  padding: 60px;
+  text-align: center;
+}
+
+p.case-studies {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+p.one, .three, .five {
+  float: right;
+  padding-right: 5%;
+}
+
+p.two, .four, .six {
+  padding: 60px 0 60px 0;
+}
+
+li.case-studies {
+  list-style-type: none;
+}
+
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: #1E2133;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 30px;
+}
