@@ -29,6 +29,10 @@ body{
   height: 70px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .part {
   position: relative;
   bottom: 85px;
