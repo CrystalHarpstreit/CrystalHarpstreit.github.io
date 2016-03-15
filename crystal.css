@@ -152,9 +152,9 @@ span.text-content {
   transition: opacity 500ms;
 }
 
-/* bianchi*/
+/* title center */
 
-p.bianchi {
+p.title_center {
   text-align: center;
   margin: 0 auto;
 }
