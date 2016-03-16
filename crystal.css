@@ -188,6 +188,8 @@ p.case-studies {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
 }
 
 /*p.one, .three, .five {
