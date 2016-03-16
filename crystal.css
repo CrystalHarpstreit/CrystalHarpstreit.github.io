@@ -84,17 +84,6 @@ img.tiles {
   height: 250px;
 }
 
-img {
-  text-align: center;
-}
-
-/*ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}*/
-
 ul.img-list-studies {
   text-align: center;
 }
