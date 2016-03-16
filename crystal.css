@@ -192,15 +192,10 @@ p.case-studies {
   padding: 20px 0 40px 0;
 }
 
-/*p.one, .three, .five {
-  float: right;
-  padding-right: 5%;
+img.rebel-logo {
+  width: 60%;
 }
 
-p.two, .four, .six {
-  padding: 60px 0 60px 0;
-}
-*/
 li.case-studies {
   list-style-type: none;
   text-align: center;
