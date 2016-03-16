@@ -38,6 +38,7 @@ a:hover {
   color: #f7484e;
 }
 
+/*front page*/
 .part {
   position: relative;
   bottom: 85px;
@@ -86,15 +87,16 @@ img.tiles {
 
 img {
   text-align: center;
+  width: 200px;
 }
 
-/*front page*/
 ul.img-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
+/*front page*/
 
 ul.img-list-studies {
   text-align: center;
