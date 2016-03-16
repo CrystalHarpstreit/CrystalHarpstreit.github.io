@@ -194,6 +194,7 @@ p.two, .four, .six {
 */
 li.case-studies {
   list-style-type: none;
+  text-align: center;
 }
 
 #footer {
