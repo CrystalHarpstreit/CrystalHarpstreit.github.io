@@ -157,6 +157,7 @@ span.text-content {
 p.title_center {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /*work pages*/
