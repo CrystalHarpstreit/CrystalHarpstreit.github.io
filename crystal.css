@@ -191,13 +191,9 @@ p.case-studies {
   padding: 20px 0 40px 0;
 }
 
-img.rebel-logo {
-  width: 60%;
-}
-
-/* wanderful & kasa*/
-img.wanderful, .kasa {
-  width: 40%;
+/* wanderful, littel rebel & kasa*/
+img.wanderful, .kasa, .rebel-logo {
+  width: 40% !important;
 }
 
 a.wanderful {
