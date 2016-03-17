@@ -196,7 +196,7 @@ img.rebel-logo {
 }
 
 /* wanderful & kasa*/
-img.wanderful .kasa {
+img.wanderful, .kasa {
   width: 40%;
 }
 
