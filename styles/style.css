@@ -18,7 +18,7 @@ h3 {
 	font-size: 1.5em;
 	font-family: 'Abril Fatface', cursive;
 	z-index: 1;
-	color: #ED20D4;
+	color: #010326;
 }
 
 .about-page {
@@ -30,7 +30,7 @@ h3 {
 }
 
 .portfolio-page {
-	background: linear-gradient(rgba(1, 3, 38, 0.55), rgba(5, 40, 242, 0.55));
+	/*background: linear-gradient(rgba(1, 3, 38, 0.55), rgba(5, 40, 242, 0.55));*/
 }
 
 }
@@ -265,18 +265,18 @@ form {
 .portfolio-squares {
 	background: #f1f1ee;
 	display: flex;
-  align-items: center;
-  justify-content: center;
-	width: 250px;
-	height: 350px;
-	border: solid 2px #010326;
-	border-radius: 2px;
-	text-align: center;
-	color: #FFF;
-	font-family: 'PT Sans', sans-serif;
-	margin: 50px;
-	z-index: 1;
-	transition: all 0.75s ease;
+  flex-direction: column;
+	justify-content: stretch;
+  width: 250px;
+  height: 350px;
+  border: solid 2px #010326;
+  border-radius: 2px;
+  text-align: center;
+  color: #FFF;
+  font-family: 'PT Sans', sans-serif;
+  margin: 50px;
+  z-index: 1;
+  transition: all 0.75s ease;
 }
 
 .portfolio-squares:hover {
