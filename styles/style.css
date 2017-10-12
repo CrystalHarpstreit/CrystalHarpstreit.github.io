@@ -128,13 +128,13 @@ a {
 #about-me {
   z-index: 1;
   position: absolute;
-  top: 300px;
-  left: 25%;
-  width: 51%;
+  top: 200px;
+  left: 3%;
+  width: 42%;
 }
 
 .intro-paragraph {
-  text-align: center;
+  text-align: left;
   color: #FFF;
   font-size: 1.5em;
   font-family: 'PT Sans', sans-serif;
