@@ -9,6 +9,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     overflow-x: hidden;
 }
 
+html {
+	background-image: url("galaxy2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
 
 #container {
 	display: flex;
@@ -22,7 +28,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #name {
 	width: 30%;
 	margin: 10em;
-	border-right: #2E0036 solid 5px;
+	border-right: whitesmoke solid 5px;
 }
 
 #projects {
@@ -42,21 +48,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1 {
 	font-size: 3em;
 	font-family: 'Libre Baskerville', serif;
-	color: #373A3A;
+	color: whitesmoke;
 	padding-bottom: .3em;
 }
 
 h2{
 	font-size: 3em;
 	font-family: 'Libre Baskerville', serif;
-	color: #373A3A;
+	color: whitesmoke;
 	padding-bottom: .3em;
 }
 
 p, ul, a, li {
 	font-size: 20px;
 	font-family: sans-serif;
-	color: #373A3A;
+	color: whitesmoke;
 	text-decoration: none;
 }
 
