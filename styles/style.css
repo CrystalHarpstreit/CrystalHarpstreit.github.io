@@ -39,12 +39,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 h1 {
 	font-size: 3em;
+	font-family: 'Libre Baskerville', serif;
 }
 
 p, ul {
-	font-size: 1.5em;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	padding-top: 1em;
+}
+
+a {
+	text-decoration: none;
 }
 
 h2{
 	font-size: 3em;
+	font-family: 'Libre Baskerville', serif;
 }
