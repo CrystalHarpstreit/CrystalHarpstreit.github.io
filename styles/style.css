@@ -7,6 +7,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
     overflow-x: hidden;
+    height: 100%;
+
 }
 
 html {
@@ -16,25 +18,28 @@ html {
 }
 
 #container {
-	height: 700px;
-	background-color: rgba(42, 47, 48, .5);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
+	background-color: rgba(42, 47, 48, .5);
 }
 
 #name {
 	width: 30%;
-	margin: 4em;
-	padding: 4em;
+	height: 20%;
+	margin: 2em;
+	padding: 6em;
 	border-right: whitesmoke solid 5px;
+	overflow: hidden;
 }
 
 #projects {
 	width: 35%;
+	height: 20%;
+	padding-left: 2em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -42,8 +47,9 @@ html {
 		width: 100%;
 		text-align: center;
 		margin: 0 auto;
-		padding: 2em;
+		padding: 0em;
 		border-right: none;
+		overflow: visible;
 	}
 }
 
@@ -52,6 +58,7 @@ h1 {
 	font-family: 'Archivo Black', sans-serif;
 	color: whitesmoke;
 	padding-bottom: .3em;
+	overflow: hidden;
 }
 
 h2{
