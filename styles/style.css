@@ -38,7 +38,7 @@ html {
 
 #projects {
 	width: 35%;
-	height: 20%;
+	height: auto;
 	padding-left: 2em;
 }
 
@@ -66,6 +66,7 @@ h2{
 	font-family: 'Archivo Black', sans-serif;
 	color: whitesmoke;
 	padding-bottom: .3em;
+	height: auto;
 }
 
 p, ul, a, li {
@@ -73,6 +74,7 @@ p, ul, a, li {
 	font-family: 'Dosis', sans-serif;
 	color: whitesmoke;
 	text-decoration: none;
+	height: auto;
 }
 
 li:hover {
