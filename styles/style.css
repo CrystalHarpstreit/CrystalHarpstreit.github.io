@@ -77,7 +77,7 @@ p, ul, a, li {
 	height: auto;
 }
 
-li:hover {
+li a:hover {
 	color: #C169EA;
 	transition: 1s;
 }
