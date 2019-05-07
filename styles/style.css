@@ -29,9 +29,9 @@ html {
 
 #name {
 	width: 30%;
-	height: 20%;
+	height: auto;
 	margin: 2em;
-	padding: 6em;
+	padding: 4em;
 	border-right: whitesmoke solid 5px;
 	overflow: hidden;
 }
