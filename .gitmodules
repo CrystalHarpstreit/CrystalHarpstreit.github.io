@@ -1,3 +1,6 @@
 [submodule "ToDoList"]
 	path = ToDoList
 	url = https://github.com/CrystalHarpstreit/ToDoList.git
+[submodule "crystalnicoleart"]
+	path = crystalnicoleart
+	url = https://github.com/CrystalHarpstreit/crystalnicoleart.git
